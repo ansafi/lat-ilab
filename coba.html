@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <style>
+      /* Gaya untuk card */
+      .card {
+        position: relative;
+        width: 200px; /* Lebar card */
+        height: 110px;
+        overflow: hidden; /* Memastikan isi tidak keluar dari card */
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Bayangan untuk efek card */
+        text-align: center; /* Menyelaraskan teks di tengah */
+      }
+
+      /* Gaya untuk gambar di dalam card */
+      .card img {
+        width: 100%;
+        height: auto;
+      }
+
+      /* Gaya untuk teks di dalam card */
+      .card .isi {
+        position: absolute;
+        bottom: 0; /* Menempatkan teks di bagian bawah gambar */
+        background: rgba(0, 0, 0, 0.5); /* Latar belakang transparan untuk teks */
+        width: 100%; /* Lebar teks sesuai card */
+        padding: 3px; /* Menambah padding agar teks tidak terlalu mepet */
+        color: white; /* Warna teks */
+        font-size: 1.5rem; /* Ukuran teks */
+        /*margin: 0; Menghilangkan margin bawaan */
+      }
+      .card p {
+        margin: 0; /* Menghilangkan margin pada paragraf */
+      }
+    </style>
+    <title>Document</title>
+  </head>
+  <body>
+    <h3 class="text-center">Bidang Minat</h3>
+    <div class="card">
+      <img src="hero.jpg" alt="hero" />
+      <div class="isi">
+        <p>sofi</p>
+      </div>
+    </div>
+  </body>
+</html>

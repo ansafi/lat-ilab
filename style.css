@@ -1,0 +1,94 @@
+.hero {
+  min-height: 100vh; /*supaya memenuhi layar dan responsive*/
+  display: flex;
+  align-items: center;
+  background-image: url(hero.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.hero .conten {
+  padding: 1.4rem 7%;
+  max-width: 50rem;
+}
+.hero .conten h2 {
+  font-size: 4em;
+  color: white;
+}
+.hero .conten p {
+  font-size: 0.8rem;
+  margin-top: 1rem;
+  color: white;
+}
+.hero .conten .tombol {
+  margin-top: 0.5rem;
+  display: inline-block; /*supaya bisa di atur padding*/
+  padding: 1rem 1rem;
+  font-size: 1rem;
+  text-align: center;
+  color: white;
+  background-color: rgb(79, 100, 145);
+  border-radius: 0.5rem;
+  box-shadow: 1px 1px 3px rgba(1, 1, 3, 0.5);
+  text-decoration: none; /*menghilnagkan underline*/
+  width: 150px; /* Atur lebar tombol sesuai kebutuhan */
+  /* atau */
+  max-width: 200px; /* Atur lebar maksimum tombol */
+}
+
+/* Gaya untuk kolom */
+.minat .row {
+  margin-left: 200px;
+  margin-right: 200px;
+}
+.minat .row .col {
+  position: relative;
+  width: 40px; /* Lebar card yang konsisten */
+  height: 180px; /* Tinggi card yang konsisten */
+  overflow: hidden; /* Memastikan isi tidak keluar dari card */
+  margin: 10px; /* Jarak antar card */
+  text-align: center; /* Menyelaraskan teks di tengah */
+}
+
+/* Gaya untuk gambar di dalam card */
+.minat .row .col img {
+  width: 110%; /* Lebar gambar mengikuti lebar card */
+  height: auto; /* Tinggi gambar mengikuti proporsinya */
+}
+
+/* Gaya untuk teks di dalam card */
+.minat .row .col .isi {
+  position: absolute;
+  bottom: 0; /* Menempatkan teks di bagian bawah gambar */
+  background: rgba(0, 0, 0, 0.5); /* Latar belakang transparan untuk teks */
+  width: 100%; /* Lebar teks sesuai card */
+  padding: 5px; /* Menambah padding agar teks tidak terlalu mepet */
+  color: white; /* Warna teks */
+  font-size: 1rem; /* Ukuran teks */
+}
+
+.minat .row .col p {
+  margin: 0; /* Menghilangkan margin pada paragraf */
+}
+.container {
+  display: flex;
+  justify-content: center;
+}
+
+.galeri {
+  padding-left: 100px;
+  padding-right: 100px;
+  padding-bottom: 200px;
+}
+
+.footer .container-fluid#border {
+  border-top: 0.5px solid rgb(151, 150, 150); /* Garis bagian atas */
+  box-shadow: 0 -4px 6px rgba(0, 0, 0, 0.1); /* Bayangan ke atas */
+}
+.footer .container-fluid#tengah {
+  border-top: 0.5px solid rgb(151, 150, 150); /* Garis bagian bawah */
+}
+.footer a {
+  color: rgb(75, 72, 72);
+  text-decoration: none;
+}
